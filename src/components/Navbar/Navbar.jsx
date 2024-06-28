@@ -9,11 +9,17 @@ const Navbar = () => {
         className='h-12 w-12 ml-8'
       />
       <div className='mr-12'>
-        <Link className='ml-6 font-bold text-2xl' to='/'>
-          Accueil
+        <Link className='ml-6 font-bold text-2xl' to='/plan-medias'>
+          Plan Médias
         </Link>
-        <Link className='ml-6 font-bold text-2xl' to='/test'>
-          Test
+        <Link className='ml-6 font-bold text-2xl' to='/annonceurs'>
+          Annonceurs
+        </Link>
+        <Link className='ml-6 font-bold text-2xl' to='/messages'>
+          Messages
+        </Link>
+        <Link className='ml-6 font-bold text-2xl' to='/users'>
+          Users
         </Link>
       </div>
     </nav>

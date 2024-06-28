@@ -6,7 +6,7 @@ import Home from '@/pages/Home/Home';
 const Router = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/:url' element={<Home />} />
       <Route path='*' element={<ErrorPage />} />
     </Routes>
   );
