@@ -4,7 +4,7 @@ import Router from '@/Router/Router';
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='min-h-screen flex flex-col'>
       <Navbar />
       <Router />
       <Footer />
